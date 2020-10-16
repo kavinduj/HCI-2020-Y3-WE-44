@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Bootstrap 4 Three Column Grid Layouts for Tablets (landscape) and Desktops</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+    /* Some custom styles to beautify this example */
+    .demo-content{
+        padding: 15px;
+        font-size: 18px;
+        background: #FFFFFF;
+        margin-bottom: 15px;
+    }
+    .demo-content.bg-alt{
+        background: #FFFFFF;
+        
+    }
+    .custom-select{
+        margin-bottom: 17px;
+    }
+    .demo-content3{
+        padding: 15px;
+        font-size: 18px;
+        background: #FFFFFF;
+        margin-bottom: 15px;
+    }
+    .bs-example1{
+        margin-top: 20px;
+    }
+    .btn_search{
+        margin-left: 120px;
+    }
+    .header{
+        margin-bottom: 20px;
+    }
+    .nav_buttons{
+        margin-top: 10px;
+        margin-left: 280px;
+    }
+    
+
+</style>
+</head>
+<body>
+    
+    
+    <!--====== HEADER PART START ======-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top mt-5">
+
+        <div class="col-sm">
+            <br>
+           <img src="images/Gif/carh2.gif"s width="70%" alt="">
+        </div>
+        <div class="col-6">
+            <br>
+        <div class="d-flex justify-content-center">
+            <img src="images/Other/l.png"s width="25%" alt="">
+        </div> 	
+            
+            
+            <!-- Collection of nav links, forms, and other content for toggling -->
+            <div class="d-flex justify-content-center">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav">
+                            <a href="register.html" class="nav-item nav-link ">Register |</a>
+                            <a href="#" class="nav-item nav-link ">My Favourites |</a>
+                            <a href="#" class="nav-item nav-link ">Edit My Adds |</a>
+                            <a href="contact_us.html" class="nav-item nav-link ">Contact US |</a>
+                            <a href="contribute.html" class="nav-item nav-link ">Contribute</a>
+                        </div>
+                    </div>
+              
+                  </nav>
+                </div>
+            </div>
+              <div class="col-sm">
+                <br><br><br>
+                <div class="d-flex justify-content-end ">
+                    <a href="home.html" style="color:#FFFFFF;">Home</a>&nbsp;&nbsp;
+                    <i class="fa fa-home fa-2x" style="color:#FFFFFF;"></i>
+                    &nbsp;&nbsp;
+                    <a href="login.html" style="color:#353535;"> &nbsp;</a>
+                    <a href="login.html" style="color:#FFFFFF;">|</a>&nbsp;
+                    &nbsp;&nbsp;
+                    <a href="login.html" style="color:#FFFFFF;">Log In </a>
+                    &nbsp;&nbsp;&nbsp;
+                    <i class="fa fa-sign-in fa-2x" style="color:#FFFFFF;"></i>
+                </div>
+              </div>
+               
+    </nav>
+
+    <!--====== HEADER PART ENDS ======-->
+
+<!-- menu bar part start -->
+
+<div class="d-flex justify-content-center">
+    <div class="nav_buttons">
+    <nav class="nav nav-pills">
+        <img src="images/Gif/arrow.gif"s width="5%" >
+        <div class="nav-item dropdown">
+<!--            <a href="#" class="nav-item nav-link"><img src="images/Gif/arrow.gif"s width="10%" ></a>-->
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" style="font-size:20px;">Post a Free Ad</a>
+            <div class="dropdown-menu">
+                <a href="sell_vehicle.html" class="dropdown-item">Sell Vehicles</a>
+                <a href="sell_parts.html" class="dropdown-item">Sell Parts</a>
+                <a href="Add_wanted.html" class="dropdown-item">Add Wanted Ad</a>
+            </div>
+        </div>
+        <a href="#" class="nav-item nav-link" style="font-size:20px;">Buy Spare Parts</a>
+        <div class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" style="font-size:20px;">Buy Vehicles</a>
+            <div class="dropdown-menu">
+                <a href="buy_cars.html" class="dropdown-item">Buy Cars</a>
+                <a href="buy_suv.html" class="dropdown-item">Buy SUVs</a>
+                <a href="buy_vans.html" class="dropdown-item">Buy Vans</a>
+                <a href="buy_lorry.html" class="dropdown-item">Buy Lorries</a>
+                <a href="buy_motorbikes.html" class="dropdown-item">Buy Motor Bikes</a>
+                <a href="buy_threewheel.html" class="dropdown-item">Buy Three Wheels</a>
+            </div>
+        </div>
+        <a href="search_wanted.html" class="nav-item nav-link " tabindex="-1" style="font-size:20px;">Wanted Vehicles</a>
+    </nav>
+    </div>
+</div>
+
+
+<!-- menu bar part end -->
+    
+    
+    <div class="container mt-4">
+        <!--Row with three equal columns-->
+        <div class="row">
+            <div class="col">                
+                        <div class="demo-content mt-2" style="color: rgb(0, 0, 105);"><b>Popular Brands</b>
+                        <br>
+                          <a href="" style="font-size: 18px;"><b>Toyota</b></a><br>
+                          <a href="" style="font-size: 18px;"><b>Suzuki</b></a><br>
+                          <a href="" style="font-size: 18px;"><b>Honda</b></a><br>
+                          <a href="" style="font-size: 18px;"><b>BMW</b></a><br>
+                          <a href="" style="font-size: 18px;"><b>Nissan</b></a><br>
+                          <a href="" style="font-size: 18px;"><b>Izuzu</b></a><br>
+                          <a href="" style="font-size: 18px;"><b>Tata</b></a><br>
+                          <a href="" style="font-size: 18px;"><b>Hero-honda</b></a><br>
+                          <a href="" style="font-size: 18px;"><b>Bajaj</b></a><br>
+                          <a href="" style="font-size: 18px;"><b>Yamaha</b></a><br>
+                          <a href="" style="font-size: 18px;"><b>Mahindra</b></a><br>
+                          <a href="" style="font-size: 18px;"><b>TVS</b></a><br>
+                          <a href="" style="font-size: 18px;"><b>Micro</b></a><br>
+                          <a href="" style="font-size: 18px;"><b>MG</b></a><br>
+                          
+    
+                        </div>
+            </div>
+                    <div class="col">
+                        <div class="demo-content bg-alt mt-2" style="color: rgb(0, 0, 105);"><b>Popular Cities</b>
+                        <br>
+                        <a href="" style="font-size: 18px;"><b>Colombo</b></a><br>
+                        <a href="" style="font-size: 18px;"><b>Negambo</b></a><br>
+                        <a href="" style="font-size: 18px;"><b>Galle</b></a><br>
+                        <a href="" style="font-size: 18px;"><b>Panadura</b></a><br>
+                        <a href="" style="font-size: 18px;"><b>Kalutara</b></a><br>
+                        <a href="" style="font-size: 18px;"><b>Kurunegala</b></a><br>
+                        <a href="" style="font-size: 18px;"><b>Kandy</b></a><br>
+                        <a href="" style="font-size: 18px;"><b>Kaduwela</b></a><br>
+                        <a href="" style="font-size: 18px;"><b>Mathara</b></a><br>
+                        <a href="" style="font-size: 18px;"><b>Matale</b></a><br>
+                        <a href="" style="font-size: 18px;"><b>Maharagama</b></a><br>
+                        <a href="" style="font-size: 18px;"><b>Hambanthota</b></a><br>
+                        <a href="" style="font-size: 18px;"><b>Hanwella</b></a><br>
+                         
+                        
+                        </div>
+                    </div>
+
+            <div class="col-lg-4">
+<!--                <div class="demo-content bg-alt"></div>-->
+                
+                
+                <div class="bs-example1">
+						<form>
+                            <h3 style="color: rgb(70, 69, 69);">Find a best vehicle for you ! </h3>
+                            <br>
+							<select class="custom-select">
+                                <option selected>Any manafacture</option>
+                                <option>Toyota</option>
+                                <option>Audi</option>
+                                <option>Benz</option>
+                                <option>Bajaj</option>
+                                <option>BMW</option>
+                                <option>Honda</option>
+                                <option>Nissan</option>
+                                <option>Suzuki</option>
+                                <option>Mahindra</option>
+							</select>
+							<select class="custom-select">
+                                <option selected>Any model</option>
+                                <option>Kompressor</option>
+                                <option>CLA</option>
+                                <option>Aqua</option>
+                                <option>Allion</option>
+                                <option>320D</option>
+                                <option>318i</option>
+                                <option>Wagon R</option>
+                                <option>civic</option>
+							</select>
+							<select class="custom-select">
+                                <option selected>Any Type</option>
+                                <option>Car</option>
+                                <option>van</option>
+                                <option>SUV</option>
+                                <option>Lorry</option>
+                                <option>Bus</option>
+                                <option>Tractor</option>
+                                <option>Three wheel</option>
+                                <option>Crew Cab</option>
+							</select>
+							<select class="custom-select">
+                                <option selected>Any Condition</option>
+                                <option>Brand New</option>
+                                <option>Registerd(used)</option>
+                                <option>Unregisterd</option>
+							</select>
+                            <select class="custom-select">
+                                <option selected>Any price Range</option>
+                                <option>0 - 100000</option>
+                                <option>100000 - 500000</option>
+                                <option>500000 - 1000000</option>
+                                <option>1000000 - 5000000</option>
+                                <option>50000000 - 10000000</option>
+                                <option>10000000 - 20000000</option>
+                                <option>200000000 - 1000000000</option>
+							</select>
+                            <select class="custom-select">
+                                <option selected>Any City</option>
+                                <option>Malambe</option>
+                                <option>Galle</option>
+                                <option>Kandy</option>
+                                <option>Maharagama</option>
+                                <option>Mathara</option>
+                                <option>Jaffna</option>
+							</select>
+						</form>
+                        <div class="col">
+                            <div class="btn btn-primary btn-block "> 
+                            <b>Search</b>
+                            <i class="fa fa-search fa-1x ml-2 " style="color: aliceblue;"></i>
+                           </div>
+                        </div>
+					</div>             
+            </div>
+
+            <div class="col-lg-4">
+                <div class="demo-content3">
+                    
+                    <form>
+                        <div class="header">
+                        <h3 class="ml-5 mt-2" style="color: rgb(70, 69, 69);">Quick Searches ! </h3>
+                        </div>
+                            <label for="inputPhoneNumber" ><b>Part condition</b></label>
+							<select class="custom-select">
+								<option selected >Search by fuel type</option>
+								<option value="1">Petrol</option>
+                                <option value="2">Disel</option>
+                                <option value="2">Hybrid</option>
+                                <option value="2">plug-in hybrid</option>
+                            </select>
+                            <label for="inputPhoneNumber" ><b>Browse By vehicle manufacture</b></label>
+							<select class="custom-select">
+                                <option selected>Any manafacture</option>
+                                <option>Toyota</option>
+                                <option>Audi</option>
+                                <option>Benz</option>
+                                <option>Bajaj</option>
+                                <option>BMW</option>
+                                <option>Honda</option>
+                                <option>Nissan</option>
+                                <option>Suzuki</option>
+                                <option>Mahindra</option>
+							</select>
+                            <label for="inputPhoneNumber" ><b>Browse by vehicle condition</b></label>
+							<select class="custom-select">
+                                <option selected>Any Condition</option>
+                                <option>Brand New</option>
+                                <option>Registerd(used)</option>
+                                <option>Unregisterd</option>  
+							</select>
+                            <label for="inputPhoneNumber" ><b>Browse by type</b></label>
+							<select class="custom-select">
+                                <option selected>Any Type</option>
+                                <option>Car</option>
+                                <option>van</option>
+                                <option>SUV</option>
+                                <option>Lorry</option>
+                                <option>Bus</option>
+                                <option>Tractor</option>
+                                <option>Three wheel</option>
+                                <option>Crew Cab</option>
+							</select>
+						</form>
+                    
+                </div>
+            </div>
+        </div>
+
+    
+    
+    
+    
+   
+</div>
+    
+    
+    <!--    Footer start-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top mt-5">
+            <div class="col-lg-4 col-sm">
+                <br>
+                    <div>
+                        <a class="text-white" > Copyright @ Riyasewana Lanka (pvt) ltd.</a>
+                    </div>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-center">
+                        <div id="term">
+                            <br>
+                            <a class="text-white" href="Terms_and_conditions.html">Terms and conditions</a> <a class="text-white">&nbsp;|&nbsp; </a><a class="text-white" href="privacy_policy.html">Privacy policy</a>
+                          </div>
+                    </div>
+        
+                <div class="col-lg-4 d-flex justify-content-end">
+                      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+                        <br>
+                        <a href="https://twitter.com/login?lang=en" class="twitter"><i class="fa fa-twitter"></i></a>&nbsp; &nbsp;
+                        <a href="https://en-gb.facebook.com/login/" class="facebook"><i class="fa fa-facebook"></i></a>
+                     </div>
+                     </div>
+        </nav>    
+<!--    Footer end-->
+    
+    
+    
+</body>
+</html>
